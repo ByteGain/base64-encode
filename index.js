@@ -15,6 +15,10 @@ function encode(input) {
     chr2 = input.charCodeAt(i++);
     chr3 = input.charCodeAt(i++);
 
+    if (chr1 > 0xFF || chr2 > 0xFF || chr3 > 0xFF) {
+      window.alert(chr1 + ' ' + chr2 + ' ' + chr3);
+    }
+
     enc1 = chr1 >> 2;
     enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
     enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
