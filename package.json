@@ -1,6 +1,6 @@
 {
-  "name": "base64-encode",
-  "version": "2.0.2",
+  "name": "bg-base64-encode",
+  "version": "2.0.3",
   "description": "Encode base-64 strings with JavaScript",
   "main": "./server.js",
   "browser": "./index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ForbesLindesay/base64-encode.git"
+    "url": "https://github.com/ByteGain/bg-base64-encode.git"
   },
   "author": "ForbesLindesay",
   "license": "MIT",
@@ -21,5 +21,8 @@
     "mocha": "*",
     "better-assert": "*"
   },
-  "files": ["index.js", "server.js"]
+  "files": [
+    "index.js",
+    "server.js"
+  ]
 }
